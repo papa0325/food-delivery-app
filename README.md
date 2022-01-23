@@ -7,10 +7,10 @@
 > This project was developed with the intent of learning full-stack development with Springboot and React.
 > <br>Live preview is available and source code if completely free to use.
 
-Aplicação web de entrega de comida de página única (SPA) desenvolvida com React, TypeScript e Node no front-end que requisita a uma API RESTful feita em Java com SpringBoot hospedada no Heroku.
+Single page food delivery (SPA) web application powered by React, TypeScript and Node on the front end that requests a RESTful API made in Java with SpringBoot hosted on Heroku.
 
-  O app tem como função mostrar os produtos disponíveis ao cliente pela página de produtos e realizar a transação com o end-point da API REST, onde os dados são gravados no banco de dados PostgreSQL relacional.
-São usadas duas tabelas de muitos para muitos onde o mínimo de produtos em um pedido é 1, e o mínimo de pedidos relacionado a um produto é zero.
-Uma terceira tabela relacionando os PEDIDOS e os PRODUTOS é usada pra retornar as informações.
+   The app's function is to show the products available to the customer through the products page and perform the transaction with the REST API endpoint, where the data is recorded in the PostgreSQL relational database.
+Two many-to-many tables are used where the minimum of products in an order is 1, and the minimum of orders related to a product is zero.
+A third table listing ORDERS and PRODUCTS is used to return the information.
 
-Devido ao servidor do Heroku entrar em modo sleep (versão gratuita), o primeiro carregamento da página de produtos pode demorar um ou dois minutos até que funcione perfeitamente.
+Due to the Heroku server going into sleep mode (free version), the first product page load may take a minute or two before it works perfectly.
